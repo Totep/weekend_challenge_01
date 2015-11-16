@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 1 Weekend Challenge</title>
+	<link href="style.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+	<header><h2>Helping Hand Acceptance Corporation</h2></header>
+		<h3>New Employee</h3>
+	<form id="empForm" name="empForm">
+      <label>First Name:<br>
+        <input type='text' placeholder="First Name" name="firstName" required></input>
+      </label>
+      <br><br>
+      <label>Last Name:<br>
+        <input type='text' placeholder="Last Name" name="lastName" required></input>
+      </label>
+      <br><br>
+      <label>Employee Number:<br>
+        <input type='number' min="0" placeholder="Employee Number" name="empNum" required></input>
+      </label>
+      <br><br>
+      <label>Title:<br>
+        <input type='text' placeholder="Title" name="EmpTitle" required></input>
+      </label>
+      <br><br>
+      <label>Last Review Score:<br>
+        <input type='number' min="1" max="5" placeholder="1" name="lastRevScore" required></input>
+      </label>
+      <br><br>
+      <label>Salary:<br>
+        <input type='number' min="1" max="1000000" placeholder="0" name="salary" required></input>
+      </label>
+      <br><br>
+      <input type='submit'  value="Add Employee"></input>
+      <input type='Reset'></input>
+  </form>
+  <div>
+
+
+  <ul id="output"></ul>
+  <button id="delete">Delete Employee</button>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
